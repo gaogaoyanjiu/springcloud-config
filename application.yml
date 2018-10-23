@@ -6,10 +6,12 @@ spring:
 spring:
   profiles: dev     #开发环境
   application: 
-    name: tdtk-cloud-config-atguigu-dev
+    name: tdtk-cloud-config-dev
 ---
 spring:
   profiles: test   #测试环境
   application: 
-    name: tdtk-cloud-config-atguigu-test
+    name: tdtk-cloud-config-test
+    
+    
 #  请保存为UTF-8格式
